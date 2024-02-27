@@ -1,7 +1,9 @@
-<div class="container">
-  <h1 class="title">
-    {{ 'PAGES.HOME.TITLE' | translate }}
-  </h1>
-
-  <a routerLink="/detail">{{ 'PAGES.HOME.GO_TO_DETAIL' | translate }}</a>
+<div class="toolbar">
+  <button class="button" id="back" (click)="back()">
+    ⬅️
+  </button>
+  <button class="button" id="forward" (click)="forward()">
+    ➡️
+  </button>
+  <input type="text" id="url" [(ngModel)]="url">
 </div>

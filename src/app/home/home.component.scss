@@ -1,3 +1,16 @@
-:host {
-  
-}
+.toolbar {
+    position: absolute;
+    height: 30px;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+  }
+
+  .toolbar > .button {
+    font-size: 20px;
+  }
+
+  .toolbar > input {
+    flex: 1;
+  }
